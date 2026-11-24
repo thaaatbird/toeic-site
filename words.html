@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>전체 단어 - 나의 토익 공부</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <header>
+    <h1>📘 TOEIC Study</h1>
+    <nav>
+      <a href="index.html">홈</a>
+      <a href="words.html">전체 단어</a>
+      <a href="index.html#quiz">퀴즈</a>
+    </nav>
+  </header>
+
+  <main>
+    <section>
+      <h2>전체 단어</h2>
+
+      <input type="text" id="search-input" placeholder="영단어 또는 뜻으로 검색">
+
+      <div class="filters">
+        <button class="filter-btn active" data-pos="all">전체</button>
+        <button class="filter-btn" data-pos="n">명사</button>
+        <button class="filter-btn" data-pos="v">동사</button>
+        <button class="filter-btn" data-pos="adj">형용사</button>
+        <button class="filter-btn" data-pos="adv">부사</button>
+      </div>
+
+      <p id="word-count">불러오는 중...</p>
+      <ul id="word-list"></ul>
+    </section>
+  </main>
+
+  <script src="words.js"></script>
+</body>
+</html>

@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>나의 토익 공부</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <header>
+    <h1>📘 TOEIC Study</h1>
+    <nav>
+      <a href="index.html">홈</a>
+      <a href="words.html">전체 단어</a>
+      <a href="index.html#quiz">퀴즈</a>
+    </nav>
+  </header>
+
+  <main>
+    <section id="home">
+      <h2>목표</h2>
+      <p>토익 990점 달성하기</p>
+      <a href="words.html" class="btn-link">📖 전체 단어 확인</a>
+    </section>
+
+    <section id="quiz">
+        <h2>단어 퀴즈</h2>
+        <p id="quiz-stats" class="stats"></p>
+        <p id="quiz-word" class="quiz-word">불러오는 중...</p>
+        <div id="quiz-choices" class="choices"></div>
+        <p id="quiz-feedback" class="feedback"></p>
+        <button id="next-btn" hidden>다음 문제 →</button>
+      </section>
+  </main>
+
+  <script src="script.js"></script>
+</body>
+</html>

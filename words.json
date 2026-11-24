@@ -1,0 +1,1802 @@
+[
+  {
+    "id": 1,
+    "word": "accommodate",
+    "pos": "v",
+    "meaning": "수용하다, 숙박시키다"
+  },
+  {
+    "id": 2,
+    "word": "accomplish",
+    "pos": "v",
+    "meaning": "성취하다"
+  },
+  {
+    "id": 3,
+    "word": "accountant",
+    "pos": "n",
+    "meaning": "회계사"
+  },
+  {
+    "id": 4,
+    "word": "accurate",
+    "pos": "adj",
+    "meaning": "정확한"
+  },
+  {
+    "id": 5,
+    "word": "acquire",
+    "pos": "v",
+    "meaning": "인수하다, 매입하다"
+  },
+  {
+    "id": 6,
+    "word": "adjacent",
+    "pos": "adj",
+    "meaning": "인접한"
+  },
+  {
+    "id": 7,
+    "word": "adjust",
+    "pos": "v",
+    "meaning": "조정하다"
+  },
+  {
+    "id": 8,
+    "word": "admission",
+    "pos": "n",
+    "meaning": "입장, 입장료"
+  },
+  {
+    "id": 9,
+    "word": "advertise",
+    "pos": "v",
+    "meaning": "광고하다"
+  },
+  {
+    "id": 10,
+    "word": "affordable",
+    "pos": "adj",
+    "meaning": "가격이 적당한"
+  },
+  {
+    "id": 11,
+    "word": "agenda",
+    "pos": "n",
+    "meaning": "안건, 의제"
+  },
+  {
+    "id": 12,
+    "word": "agreement",
+    "pos": "n",
+    "meaning": "합의, 협정"
+  },
+  {
+    "id": 13,
+    "word": "allocate",
+    "pos": "v",
+    "meaning": "할당하다"
+  },
+  {
+    "id": 14,
+    "word": "alternative",
+    "pos": "n",
+    "meaning": "대안"
+  },
+  {
+    "id": 15,
+    "word": "amenity",
+    "pos": "n",
+    "meaning": "편의 시설"
+  },
+  {
+    "id": 16,
+    "word": "announce",
+    "pos": "v",
+    "meaning": "발표하다"
+  },
+  {
+    "id": 17,
+    "word": "annual",
+    "pos": "adj",
+    "meaning": "연례의, 매년의"
+  },
+  {
+    "id": 18,
+    "word": "anticipate",
+    "pos": "v",
+    "meaning": "예상하다"
+  },
+  {
+    "id": 19,
+    "word": "applicant",
+    "pos": "n",
+    "meaning": "지원자"
+  },
+  {
+    "id": 20,
+    "word": "appliance",
+    "pos": "n",
+    "meaning": "가전제품"
+  },
+  {
+    "id": 21,
+    "word": "appointment",
+    "pos": "n",
+    "meaning": "약속, 임명"
+  },
+  {
+    "id": 22,
+    "word": "appreciate",
+    "pos": "v",
+    "meaning": "감사하다, 진가를 알다"
+  },
+  {
+    "id": 23,
+    "word": "approve",
+    "pos": "v",
+    "meaning": "승인하다"
+  },
+  {
+    "id": 24,
+    "word": "approximately",
+    "pos": "adv",
+    "meaning": "대략"
+  },
+  {
+    "id": 25,
+    "word": "arrange",
+    "pos": "v",
+    "meaning": "마련하다, 배열하다"
+  },
+  {
+    "id": 26,
+    "word": "assemble",
+    "pos": "v",
+    "meaning": "조립하다, 모으다"
+  },
+  {
+    "id": 27,
+    "word": "assess",
+    "pos": "v",
+    "meaning": "평가하다"
+  },
+  {
+    "id": 28,
+    "word": "asset",
+    "pos": "n",
+    "meaning": "자산"
+  },
+  {
+    "id": 29,
+    "word": "assign",
+    "pos": "v",
+    "meaning": "배정하다"
+  },
+  {
+    "id": 30,
+    "word": "assistance",
+    "pos": "n",
+    "meaning": "도움, 지원"
+  },
+  {
+    "id": 31,
+    "word": "attach",
+    "pos": "v",
+    "meaning": "첨부하다"
+  },
+  {
+    "id": 32,
+    "word": "attend",
+    "pos": "v",
+    "meaning": "참석하다"
+  },
+  {
+    "id": 33,
+    "word": "attendee",
+    "pos": "n",
+    "meaning": "참석자"
+  },
+  {
+    "id": 34,
+    "word": "audit",
+    "pos": "n",
+    "meaning": "회계 감사"
+  },
+  {
+    "id": 35,
+    "word": "authorize",
+    "pos": "v",
+    "meaning": "권한을 주다"
+  },
+  {
+    "id": 36,
+    "word": "available",
+    "pos": "adj",
+    "meaning": "이용 가능한"
+  },
+  {
+    "id": 37,
+    "word": "award",
+    "pos": "n",
+    "meaning": "상"
+  },
+  {
+    "id": 38,
+    "word": "balance",
+    "pos": "n",
+    "meaning": "잔액, 균형"
+  },
+  {
+    "id": 39,
+    "word": "banquet",
+    "pos": "n",
+    "meaning": "연회"
+  },
+  {
+    "id": 40,
+    "word": "beverage",
+    "pos": "n",
+    "meaning": "음료"
+  },
+  {
+    "id": 41,
+    "word": "bid",
+    "pos": "n",
+    "meaning": "입찰"
+  },
+  {
+    "id": 42,
+    "word": "brochure",
+    "pos": "n",
+    "meaning": "안내 책자"
+  },
+  {
+    "id": 43,
+    "word": "budget",
+    "pos": "n",
+    "meaning": "예산"
+  },
+  {
+    "id": 44,
+    "word": "candidate",
+    "pos": "n",
+    "meaning": "후보자"
+  },
+  {
+    "id": 45,
+    "word": "capacity",
+    "pos": "n",
+    "meaning": "수용력, 용량"
+  },
+  {
+    "id": 46,
+    "word": "cancel",
+    "pos": "v",
+    "meaning": "취소하다"
+  },
+  {
+    "id": 47,
+    "word": "colleague",
+    "pos": "n",
+    "meaning": "동료"
+  },
+  {
+    "id": 48,
+    "word": "commute",
+    "pos": "v",
+    "meaning": "통근하다"
+  },
+  {
+    "id": 49,
+    "word": "compensate",
+    "pos": "v",
+    "meaning": "보상하다"
+  },
+  {
+    "id": 50,
+    "word": "competitive",
+    "pos": "adj",
+    "meaning": "경쟁력 있는"
+  },
+  {
+    "id": 51,
+    "word": "complaint",
+    "pos": "n",
+    "meaning": "불만, 항의"
+  },
+  {
+    "id": 52,
+    "word": "complimentary",
+    "pos": "adj",
+    "meaning": "무료의"
+  },
+  {
+    "id": 53,
+    "word": "comply",
+    "pos": "v",
+    "meaning": "준수하다"
+  },
+  {
+    "id": 54,
+    "word": "component",
+    "pos": "n",
+    "meaning": "부품, 구성 요소"
+  },
+  {
+    "id": 55,
+    "word": "comprehensive",
+    "pos": "adj",
+    "meaning": "포괄적인"
+  },
+  {
+    "id": 56,
+    "word": "conduct",
+    "pos": "v",
+    "meaning": "실시하다"
+  },
+  {
+    "id": 57,
+    "word": "conference",
+    "pos": "n",
+    "meaning": "회의, 학회"
+  },
+  {
+    "id": 58,
+    "word": "confidential",
+    "pos": "adj",
+    "meaning": "기밀의"
+  },
+  {
+    "id": 59,
+    "word": "confirm",
+    "pos": "v",
+    "meaning": "확인하다"
+  },
+  {
+    "id": 60,
+    "word": "consecutive",
+    "pos": "adj",
+    "meaning": "연속적인"
+  },
+  {
+    "id": 61,
+    "word": "consult",
+    "pos": "v",
+    "meaning": "상담하다"
+  },
+  {
+    "id": 62,
+    "word": "consumer",
+    "pos": "n",
+    "meaning": "소비자"
+  },
+  {
+    "id": 63,
+    "word": "contract",
+    "pos": "n",
+    "meaning": "계약서"
+  },
+  {
+    "id": 64,
+    "word": "contribute",
+    "pos": "v",
+    "meaning": "기여하다"
+  },
+  {
+    "id": 65,
+    "word": "convenient",
+    "pos": "adj",
+    "meaning": "편리한"
+  },
+  {
+    "id": 66,
+    "word": "coordinate",
+    "pos": "v",
+    "meaning": "조정하다, 조율하다"
+  },
+  {
+    "id": 67,
+    "word": "corporation",
+    "pos": "n",
+    "meaning": "기업, 법인"
+  },
+  {
+    "id": 68,
+    "word": "courier",
+    "pos": "n",
+    "meaning": "택배 회사, 배달원"
+  },
+  {
+    "id": 69,
+    "word": "coverage",
+    "pos": "n",
+    "meaning": "보도, 보장 범위"
+  },
+  {
+    "id": 70,
+    "word": "credential",
+    "pos": "n",
+    "meaning": "자격증, 자격 증명서"
+  },
+  {
+    "id": 71,
+    "word": "critical",
+    "pos": "adj",
+    "meaning": "대단히 중요한, 비판적인"
+  },
+  {
+    "id": 72,
+    "word": "currently",
+    "pos": "adv",
+    "meaning": "현재"
+  },
+  {
+    "id": 73,
+    "word": "customer",
+    "pos": "n",
+    "meaning": "고객"
+  },
+  {
+    "id": 74,
+    "word": "deadline",
+    "pos": "n",
+    "meaning": "마감일"
+  },
+  {
+    "id": 75,
+    "word": "decline",
+    "pos": "v",
+    "meaning": "감소하다, 거절하다"
+  },
+  {
+    "id": 76,
+    "word": "dedicated",
+    "pos": "adj",
+    "meaning": "헌신적인"
+  },
+  {
+    "id": 77,
+    "word": "defective",
+    "pos": "adj",
+    "meaning": "결함이 있는"
+  },
+  {
+    "id": 78,
+    "word": "delay",
+    "pos": "n",
+    "meaning": "지연"
+  },
+  {
+    "id": 79,
+    "word": "delegate",
+    "pos": "v",
+    "meaning": "위임하다"
+  },
+  {
+    "id": 80,
+    "word": "deliver",
+    "pos": "v",
+    "meaning": "배달하다"
+  },
+  {
+    "id": 81,
+    "word": "demonstrate",
+    "pos": "v",
+    "meaning": "시연하다, 입증하다"
+  },
+  {
+    "id": 82,
+    "word": "department",
+    "pos": "n",
+    "meaning": "부서"
+  },
+  {
+    "id": 83,
+    "word": "deposit",
+    "pos": "n",
+    "meaning": "예금, 보증금"
+  },
+  {
+    "id": 84,
+    "word": "designate",
+    "pos": "v",
+    "meaning": "지정하다"
+  },
+  {
+    "id": 85,
+    "word": "destination",
+    "pos": "n",
+    "meaning": "목적지"
+  },
+  {
+    "id": 86,
+    "word": "detailed",
+    "pos": "adj",
+    "meaning": "상세한"
+  },
+  {
+    "id": 87,
+    "word": "dispatch",
+    "pos": "v",
+    "meaning": "발송하다"
+  },
+  {
+    "id": 88,
+    "word": "display",
+    "pos": "v",
+    "meaning": "진열하다"
+  },
+  {
+    "id": 89,
+    "word": "distribute",
+    "pos": "v",
+    "meaning": "배포하다, 유통하다"
+  },
+  {
+    "id": 90,
+    "word": "diverse",
+    "pos": "adj",
+    "meaning": "다양한"
+  },
+  {
+    "id": 91,
+    "word": "division",
+    "pos": "n",
+    "meaning": "사업부, 분할"
+  },
+  {
+    "id": 92,
+    "word": "donation",
+    "pos": "n",
+    "meaning": "기부"
+  },
+  {
+    "id": 93,
+    "word": "draft",
+    "pos": "n",
+    "meaning": "초안"
+  },
+  {
+    "id": 94,
+    "word": "durable",
+    "pos": "adj",
+    "meaning": "내구성 있는"
+  },
+  {
+    "id": 95,
+    "word": "efficient",
+    "pos": "adj",
+    "meaning": "효율적인"
+  },
+  {
+    "id": 96,
+    "word": "eligible",
+    "pos": "adj",
+    "meaning": "대상이 되는, 적격의"
+  },
+  {
+    "id": 97,
+    "word": "eliminate",
+    "pos": "v",
+    "meaning": "제거하다"
+  },
+  {
+    "id": 98,
+    "word": "emphasize",
+    "pos": "v",
+    "meaning": "강조하다"
+  },
+  {
+    "id": 99,
+    "word": "employee",
+    "pos": "n",
+    "meaning": "직원"
+  },
+  {
+    "id": 100,
+    "word": "enclose",
+    "pos": "v",
+    "meaning": "동봉하다"
+  },
+  {
+    "id": 101,
+    "word": "encourage",
+    "pos": "v",
+    "meaning": "장려하다"
+  },
+  {
+    "id": 102,
+    "word": "endorse",
+    "pos": "v",
+    "meaning": "지지하다, 보증하다"
+  },
+  {
+    "id": 103,
+    "word": "enhance",
+    "pos": "v",
+    "meaning": "향상시키다"
+  },
+  {
+    "id": 104,
+    "word": "endeavor",
+    "pos": "n",
+    "meaning": "노력, 시도"
+  },
+  {
+    "id": 105,
+    "word": "ensure",
+    "pos": "v",
+    "meaning": "보장하다"
+  },
+  {
+    "id": 106,
+    "word": "entitle",
+    "pos": "v",
+    "meaning": "자격을 주다"
+  },
+  {
+    "id": 107,
+    "word": "equipment",
+    "pos": "n",
+    "meaning": "장비"
+  },
+  {
+    "id": 108,
+    "word": "estimate",
+    "pos": "n",
+    "meaning": "견적, 추정"
+  },
+  {
+    "id": 109,
+    "word": "exceed",
+    "pos": "v",
+    "meaning": "초과하다"
+  },
+  {
+    "id": 110,
+    "word": "exclusive",
+    "pos": "adj",
+    "meaning": "독점적인"
+  },
+  {
+    "id": 111,
+    "word": "executive",
+    "pos": "n",
+    "meaning": "임원, 경영진"
+  },
+  {
+    "id": 112,
+    "word": "expand",
+    "pos": "v",
+    "meaning": "확장하다"
+  },
+  {
+    "id": 113,
+    "word": "expense",
+    "pos": "n",
+    "meaning": "비용"
+  },
+  {
+    "id": 114,
+    "word": "expertise",
+    "pos": "n",
+    "meaning": "전문 지식"
+  },
+  {
+    "id": 115,
+    "word": "expire",
+    "pos": "v",
+    "meaning": "만료되다"
+  },
+  {
+    "id": 116,
+    "word": "extend",
+    "pos": "v",
+    "meaning": "연장하다"
+  },
+  {
+    "id": 117,
+    "word": "facility",
+    "pos": "n",
+    "meaning": "시설"
+  },
+  {
+    "id": 118,
+    "word": "feasible",
+    "pos": "adj",
+    "meaning": "실현 가능한"
+  },
+  {
+    "id": 119,
+    "word": "fee",
+    "pos": "n",
+    "meaning": "가입비, 수수료"
+  },
+  {
+    "id": 120,
+    "word": "finalize",
+    "pos": "v",
+    "meaning": "마무리하다"
+  },
+  {
+    "id": 121,
+    "word": "financial",
+    "pos": "adj",
+    "meaning": "재정의"
+  },
+  {
+    "id": 122,
+    "word": "flexible",
+    "pos": "adj",
+    "meaning": "유연한"
+  },
+  {
+    "id": 123,
+    "word": "forecast",
+    "pos": "n",
+    "meaning": "예측, 예보"
+  },
+  {
+    "id": 124,
+    "word": "fiscal",
+    "pos": "adj",
+    "meaning": "회계의"
+  },
+  {
+    "id": 125,
+    "word": "forward",
+    "pos": "v",
+    "meaning": "전달하다"
+  },
+  {
+    "id": 126,
+    "word": "found",
+    "pos": "v",
+    "meaning": "설립하다"
+  },
+  {
+    "id": 127,
+    "word": "fragile",
+    "pos": "adj",
+    "meaning": "깨지기 쉬운"
+  },
+  {
+    "id": 128,
+    "word": "fund",
+    "pos": "n",
+    "meaning": "자금"
+  },
+  {
+    "id": 129,
+    "word": "generate",
+    "pos": "v",
+    "meaning": "생성하다, 창출하다"
+  },
+  {
+    "id": 130,
+    "word": "grant",
+    "pos": "n",
+    "meaning": "보조금"
+  },
+  {
+    "id": 131,
+    "word": "guarantee",
+    "pos": "v",
+    "meaning": "보증하다"
+  },
+  {
+    "id": 132,
+    "word": "headquarters",
+    "pos": "n",
+    "meaning": "본사"
+  },
+  {
+    "id": 133,
+    "word": "hire",
+    "pos": "v",
+    "meaning": "고용하다"
+  },
+  {
+    "id": 134,
+    "word": "implement",
+    "pos": "v",
+    "meaning": "시행하다"
+  },
+  {
+    "id": 135,
+    "word": "improve",
+    "pos": "v",
+    "meaning": "개선하다"
+  },
+  {
+    "id": 136,
+    "word": "inclement",
+    "pos": "adj",
+    "meaning": "(날씨가) 궂은"
+  },
+  {
+    "id": 137,
+    "word": "incentive",
+    "pos": "n",
+    "meaning": "장려금, 인센티브"
+  },
+  {
+    "id": 138,
+    "word": "increase",
+    "pos": "v",
+    "meaning": "증가하다"
+  },
+  {
+    "id": 139,
+    "word": "indicate",
+    "pos": "v",
+    "meaning": "나타내다"
+  },
+  {
+    "id": 140,
+    "word": "inquiry",
+    "pos": "n",
+    "meaning": "문의"
+  },
+  {
+    "id": 141,
+    "word": "inspect",
+    "pos": "v",
+    "meaning": "점검하다"
+  },
+  {
+    "id": 142,
+    "word": "install",
+    "pos": "v",
+    "meaning": "설치하다"
+  },
+  {
+    "id": 143,
+    "word": "instruction",
+    "pos": "n",
+    "meaning": "지시, 설명서"
+  },
+  {
+    "id": 144,
+    "word": "insurance",
+    "pos": "n",
+    "meaning": "보험"
+  },
+  {
+    "id": 145,
+    "word": "inventory",
+    "pos": "n",
+    "meaning": "재고, 재고 목록"
+  },
+  {
+    "id": 146,
+    "word": "invoice",
+    "pos": "n",
+    "meaning": "송장, 청구서"
+  },
+  {
+    "id": 147,
+    "word": "itinerary",
+    "pos": "n",
+    "meaning": "여행 일정표"
+  },
+  {
+    "id": 148,
+    "word": "launch",
+    "pos": "v",
+    "meaning": "출시하다"
+  },
+  {
+    "id": 149,
+    "word": "lease",
+    "pos": "n",
+    "meaning": "임대차 계약"
+  },
+  {
+    "id": 150,
+    "word": "liability",
+    "pos": "n",
+    "meaning": "법적 책임, 부채"
+  },
+  {
+    "id": 151,
+    "word": "load",
+    "pos": "v",
+    "meaning": "싣다"
+  },
+  {
+    "id": 152,
+    "word": "lobby",
+    "pos": "n",
+    "meaning": "로비"
+  },
+  {
+    "id": 153,
+    "word": "logistics",
+    "pos": "n",
+    "meaning": "물류"
+  },
+  {
+    "id": 154,
+    "word": "maintain",
+    "pos": "v",
+    "meaning": "유지하다"
+  },
+  {
+    "id": 155,
+    "word": "maintenance",
+    "pos": "n",
+    "meaning": "유지 보수"
+  },
+  {
+    "id": 156,
+    "word": "manufacture",
+    "pos": "v",
+    "meaning": "제조하다"
+  },
+  {
+    "id": 157,
+    "word": "merchandise",
+    "pos": "n",
+    "meaning": "상품"
+  },
+  {
+    "id": 158,
+    "word": "merger",
+    "pos": "n",
+    "meaning": "합병"
+  },
+  {
+    "id": 159,
+    "word": "mandatory",
+    "pos": "adj",
+    "meaning": "의무적인"
+  },
+  {
+    "id": 160,
+    "word": "minutes",
+    "pos": "n",
+    "meaning": "회의록"
+  },
+  {
+    "id": 161,
+    "word": "modify",
+    "pos": "v",
+    "meaning": "변경하다"
+  },
+  {
+    "id": 162,
+    "word": "monitor",
+    "pos": "v",
+    "meaning": "감시하다"
+  },
+  {
+    "id": 163,
+    "word": "negotiate",
+    "pos": "v",
+    "meaning": "협상하다"
+  },
+  {
+    "id": 164,
+    "word": "notify",
+    "pos": "v",
+    "meaning": "통지하다"
+  },
+  {
+    "id": 165,
+    "word": "numerous",
+    "pos": "adj",
+    "meaning": "수많은"
+  },
+  {
+    "id": 166,
+    "word": "objective",
+    "pos": "n",
+    "meaning": "목표"
+  },
+  {
+    "id": 167,
+    "word": "obtain",
+    "pos": "v",
+    "meaning": "얻다, 획득하다"
+  },
+  {
+    "id": 168,
+    "word": "occupation",
+    "pos": "n",
+    "meaning": "직업"
+  },
+  {
+    "id": 169,
+    "word": "operate",
+    "pos": "v",
+    "meaning": "운영하다, 작동하다"
+  },
+  {
+    "id": 170,
+    "word": "opportunity",
+    "pos": "n",
+    "meaning": "기회"
+  },
+  {
+    "id": 171,
+    "word": "order",
+    "pos": "v",
+    "meaning": "주문하다"
+  },
+  {
+    "id": 172,
+    "word": "organize",
+    "pos": "v",
+    "meaning": "조직하다, 정리하다"
+  },
+  {
+    "id": 173,
+    "word": "outstanding",
+    "pos": "adj",
+    "meaning": "뛰어난, 미지불된"
+  },
+  {
+    "id": 174,
+    "word": "overdue",
+    "pos": "adj",
+    "meaning": "기한이 지난"
+  },
+  {
+    "id": 175,
+    "word": "oversee",
+    "pos": "v",
+    "meaning": "감독하다"
+  },
+  {
+    "id": 176,
+    "word": "overtime",
+    "pos": "n",
+    "meaning": "초과 근무"
+  },
+  {
+    "id": 177,
+    "word": "participate",
+    "pos": "v",
+    "meaning": "참가하다"
+  },
+  {
+    "id": 178,
+    "word": "patron",
+    "pos": "n",
+    "meaning": "단골손님, 후원자"
+  },
+  {
+    "id": 179,
+    "word": "payroll",
+    "pos": "n",
+    "meaning": "급여 대장"
+  },
+  {
+    "id": 180,
+    "word": "pending",
+    "pos": "adj",
+    "meaning": "미결의, 보류 중인"
+  },
+  {
+    "id": 181,
+    "word": "performance",
+    "pos": "n",
+    "meaning": "성과, 공연"
+  },
+  {
+    "id": 182,
+    "word": "permit",
+    "pos": "n",
+    "meaning": "허가증"
+  },
+  {
+    "id": 183,
+    "word": "personnel",
+    "pos": "n",
+    "meaning": "인사과, 전 직원"
+  },
+  {
+    "id": 184,
+    "word": "policy",
+    "pos": "n",
+    "meaning": "정책, 방침"
+  },
+  {
+    "id": 185,
+    "word": "postpone",
+    "pos": "v",
+    "meaning": "연기하다"
+  },
+  {
+    "id": 186,
+    "word": "potential",
+    "pos": "adj",
+    "meaning": "잠재적인"
+  },
+  {
+    "id": 187,
+    "word": "preference",
+    "pos": "n",
+    "meaning": "선호"
+  },
+  {
+    "id": 188,
+    "word": "premises",
+    "pos": "n",
+    "meaning": "부지, 구내"
+  },
+  {
+    "id": 189,
+    "word": "prepare",
+    "pos": "v",
+    "meaning": "준비하다"
+  },
+  {
+    "id": 190,
+    "word": "prescription",
+    "pos": "n",
+    "meaning": "처방전"
+  },
+  {
+    "id": 191,
+    "word": "presentation",
+    "pos": "n",
+    "meaning": "발표"
+  },
+  {
+    "id": 192,
+    "word": "previous",
+    "pos": "adj",
+    "meaning": "이전의"
+  },
+  {
+    "id": 193,
+    "word": "priority",
+    "pos": "n",
+    "meaning": "우선 사항"
+  },
+  {
+    "id": 194,
+    "word": "procedure",
+    "pos": "n",
+    "meaning": "절차"
+  },
+  {
+    "id": 195,
+    "word": "proceed",
+    "pos": "v",
+    "meaning": "진행하다"
+  },
+  {
+    "id": 196,
+    "word": "productivity",
+    "pos": "n",
+    "meaning": "생산성"
+  },
+  {
+    "id": 197,
+    "word": "profit",
+    "pos": "n",
+    "meaning": "이윤, 이익"
+  },
+  {
+    "id": 198,
+    "word": "promote",
+    "pos": "v",
+    "meaning": "승진시키다, 홍보하다"
+  },
+  {
+    "id": 199,
+    "word": "proposal",
+    "pos": "n",
+    "meaning": "제안서"
+  },
+  {
+    "id": 200,
+    "word": "prospective",
+    "pos": "adj",
+    "meaning": "장래의, 유망한"
+  },
+  {
+    "id": 201,
+    "word": "provide",
+    "pos": "v",
+    "meaning": "제공하다"
+  },
+  {
+    "id": 202,
+    "word": "publication",
+    "pos": "n",
+    "meaning": "출판물"
+  },
+  {
+    "id": 203,
+    "word": "purchase",
+    "pos": "v",
+    "meaning": "구매하다"
+  },
+  {
+    "id": 204,
+    "word": "qualified",
+    "pos": "adj",
+    "meaning": "자격을 갖춘, 적임의"
+  },
+  {
+    "id": 205,
+    "word": "quarter",
+    "pos": "n",
+    "meaning": "분기"
+  },
+  {
+    "id": 206,
+    "word": "questionnaire",
+    "pos": "n",
+    "meaning": "설문지"
+  },
+  {
+    "id": 207,
+    "word": "quota",
+    "pos": "n",
+    "meaning": "할당량"
+  },
+  {
+    "id": 208,
+    "word": "receipt",
+    "pos": "n",
+    "meaning": "영수증"
+  },
+  {
+    "id": 209,
+    "word": "reception",
+    "pos": "n",
+    "meaning": "접수처, 환영회"
+  },
+  {
+    "id": 210,
+    "word": "recommend",
+    "pos": "v",
+    "meaning": "추천하다"
+  },
+  {
+    "id": 211,
+    "word": "reduce",
+    "pos": "v",
+    "meaning": "줄이다"
+  },
+  {
+    "id": 212,
+    "word": "refund",
+    "pos": "n",
+    "meaning": "환불"
+  },
+  {
+    "id": 213,
+    "word": "register",
+    "pos": "v",
+    "meaning": "등록하다"
+  },
+  {
+    "id": 214,
+    "word": "reimburse",
+    "pos": "v",
+    "meaning": "(비용을) 상환하다"
+  },
+  {
+    "id": 215,
+    "word": "reliable",
+    "pos": "adj",
+    "meaning": "믿을 수 있는"
+  },
+  {
+    "id": 216,
+    "word": "relocate",
+    "pos": "v",
+    "meaning": "이전하다"
+  },
+  {
+    "id": 217,
+    "word": "reminder",
+    "pos": "n",
+    "meaning": "알림, 독촉장"
+  },
+  {
+    "id": 218,
+    "word": "renovate",
+    "pos": "v",
+    "meaning": "개조하다"
+  },
+  {
+    "id": 219,
+    "word": "replace",
+    "pos": "v",
+    "meaning": "교체하다"
+  },
+  {
+    "id": 220,
+    "word": "representative",
+    "pos": "n",
+    "meaning": "대표자, 담당 직원"
+  },
+  {
+    "id": 221,
+    "word": "reputation",
+    "pos": "n",
+    "meaning": "평판"
+  },
+  {
+    "id": 222,
+    "word": "request",
+    "pos": "v",
+    "meaning": "요청하다"
+  },
+  {
+    "id": 223,
+    "word": "require",
+    "pos": "v",
+    "meaning": "요구하다"
+  },
+  {
+    "id": 224,
+    "word": "reservation",
+    "pos": "n",
+    "meaning": "예약"
+  },
+  {
+    "id": 225,
+    "word": "resign",
+    "pos": "v",
+    "meaning": "사직하다"
+  },
+  {
+    "id": 226,
+    "word": "resolve",
+    "pos": "v",
+    "meaning": "해결하다"
+  },
+  {
+    "id": 227,
+    "word": "respond",
+    "pos": "v",
+    "meaning": "응답하다"
+  },
+  {
+    "id": 228,
+    "word": "responsibility",
+    "pos": "n",
+    "meaning": "책임, 직무"
+  },
+  {
+    "id": 229,
+    "word": "retail",
+    "pos": "n",
+    "meaning": "소매"
+  },
+  {
+    "id": 230,
+    "word": "retire",
+    "pos": "v",
+    "meaning": "은퇴하다"
+  },
+  {
+    "id": 231,
+    "word": "revenue",
+    "pos": "n",
+    "meaning": "매출, 수입"
+  },
+  {
+    "id": 232,
+    "word": "revise",
+    "pos": "v",
+    "meaning": "개정하다, 수정하다"
+  },
+  {
+    "id": 233,
+    "word": "reward",
+    "pos": "n",
+    "meaning": "보상"
+  },
+  {
+    "id": 234,
+    "word": "salary",
+    "pos": "n",
+    "meaning": "급여"
+  },
+  {
+    "id": 235,
+    "word": "sample",
+    "pos": "n",
+    "meaning": "견본"
+  },
+  {
+    "id": 236,
+    "word": "schedule",
+    "pos": "n",
+    "meaning": "일정"
+  },
+  {
+    "id": 237,
+    "word": "secure",
+    "pos": "v",
+    "meaning": "확보하다"
+  },
+  {
+    "id": 238,
+    "word": "shipment",
+    "pos": "n",
+    "meaning": "배송, 배송품"
+  },
+  {
+    "id": 239,
+    "word": "significant",
+    "pos": "adj",
+    "meaning": "중요한, 의미 있는"
+  },
+  {
+    "id": 240,
+    "word": "specification",
+    "pos": "n",
+    "meaning": "사양, 명세"
+  },
+  {
+    "id": 241,
+    "word": "sponsor",
+    "pos": "v",
+    "meaning": "후원하다"
+  },
+  {
+    "id": 242,
+    "word": "status",
+    "pos": "n",
+    "meaning": "상태, 지위"
+  },
+  {
+    "id": 243,
+    "word": "subscribe",
+    "pos": "v",
+    "meaning": "구독하다"
+  },
+  {
+    "id": 244,
+    "word": "subsidiary",
+    "pos": "n",
+    "meaning": "자회사"
+  },
+  {
+    "id": 245,
+    "word": "substantial",
+    "pos": "adj",
+    "meaning": "상당한, 많은"
+  },
+  {
+    "id": 246,
+    "word": "supervisor",
+    "pos": "n",
+    "meaning": "관리자, 상사"
+  },
+  {
+    "id": 247,
+    "word": "supplier",
+    "pos": "n",
+    "meaning": "공급업체"
+  },
+  {
+    "id": 248,
+    "word": "survey",
+    "pos": "n",
+    "meaning": "설문 조사"
+  },
+  {
+    "id": 249,
+    "word": "submit",
+    "pos": "v",
+    "meaning": "제출하다"
+  },
+  {
+    "id": 250,
+    "word": "tenant",
+    "pos": "n",
+    "meaning": "세입자"
+  },
+  {
+    "id": 251,
+    "word": "temporary",
+    "pos": "adj",
+    "meaning": "임시의"
+  },
+  {
+    "id": 252,
+    "word": "terminate",
+    "pos": "v",
+    "meaning": "종료하다, 해지하다"
+  },
+  {
+    "id": 253,
+    "word": "transaction",
+    "pos": "n",
+    "meaning": "거래"
+  },
+  {
+    "id": 254,
+    "word": "transfer",
+    "pos": "v",
+    "meaning": "전근시키다, 이체하다"
+  },
+  {
+    "id": 255,
+    "word": "tuition",
+    "pos": "n",
+    "meaning": "수업료"
+  },
+  {
+    "id": 256,
+    "word": "undergo",
+    "pos": "v",
+    "meaning": "겪다, 받다"
+  },
+  {
+    "id": 257,
+    "word": "upcoming",
+    "pos": "adj",
+    "meaning": "다가오는"
+  },
+  {
+    "id": 258,
+    "word": "update",
+    "pos": "v",
+    "meaning": "최신 정보로 바꾸다"
+  },
+  {
+    "id": 259,
+    "word": "urgent",
+    "pos": "adj",
+    "meaning": "긴급한"
+  },
+  {
+    "id": 260,
+    "word": "utility",
+    "pos": "n",
+    "meaning": "공공요금, 공공 설비"
+  },
+  {
+    "id": 261,
+    "word": "vacancy",
+    "pos": "n",
+    "meaning": "공석, 빈방"
+  },
+  {
+    "id": 262,
+    "word": "valid",
+    "pos": "adj",
+    "meaning": "유효한"
+  },
+  {
+    "id": 263,
+    "word": "vendor",
+    "pos": "n",
+    "meaning": "판매업체, 노점상"
+  },
+  {
+    "id": 264,
+    "word": "venue",
+    "pos": "n",
+    "meaning": "장소"
+  },
+  {
+    "id": 265,
+    "word": "verify",
+    "pos": "v",
+    "meaning": "검증하다"
+  },
+  {
+    "id": 266,
+    "word": "warehouse",
+    "pos": "n",
+    "meaning": "창고"
+  },
+  {
+    "id": 267,
+    "word": "warranty",
+    "pos": "n",
+    "meaning": "품질 보증서"
+  },
+  {
+    "id": 268,
+    "word": "withdraw",
+    "pos": "v",
+    "meaning": "인출하다, 철회하다"
+  },
+  {
+    "id": 269,
+    "word": "workshop",
+    "pos": "n",
+    "meaning": "연수회"
+  },
+  {
+    "id": 270,
+    "word": "consolidate",
+    "pos": "v",
+    "meaning": "통합하다"
+  },
+  {
+    "id": 271,
+    "word": "commence",
+    "pos": "v",
+    "meaning": "시작하다"
+  },
+  {
+    "id": 272,
+    "word": "compile",
+    "pos": "v",
+    "meaning": "편집하다, 취합하다"
+  },
+  {
+    "id": 273,
+    "word": "acknowledge",
+    "pos": "v",
+    "meaning": "인정하다, 수신을 확인하다"
+  },
+  {
+    "id": 274,
+    "word": "adequate",
+    "pos": "adj",
+    "meaning": "충분한, 적절한"
+  },
+  {
+    "id": 275,
+    "word": "attire",
+    "pos": "n",
+    "meaning": "복장"
+  },
+  {
+    "id": 276,
+    "word": "commission",
+    "pos": "n",
+    "meaning": "위원회, 판매 수당"
+  },
+  {
+    "id": 277,
+    "word": "recruit",
+    "pos": "v",
+    "meaning": "모집하다"
+  },
+  {
+    "id": 278,
+    "word": "reference",
+    "pos": "n",
+    "meaning": "추천서, 참고"
+  },
+  {
+    "id": 279,
+    "word": "resume",
+    "pos": "n",
+    "meaning": "이력서"
+  },
+  {
+    "id": 280,
+    "word": "shift",
+    "pos": "n",
+    "meaning": "교대 근무"
+  },
+  {
+    "id": 281,
+    "word": "incur",
+    "pos": "v",
+    "meaning": "(비용·손실을) 초래하다"
+  },
+  {
+    "id": 282,
+    "word": "dimension",
+    "pos": "n",
+    "meaning": "치수, 차원"
+  },
+  {
+    "id": 283,
+    "word": "lucrative",
+    "pos": "adj",
+    "meaning": "수익성이 좋은"
+  },
+  {
+    "id": 284,
+    "word": "prominent",
+    "pos": "adj",
+    "meaning": "저명한, 눈에 띄는"
+  },
+  {
+    "id": 285,
+    "word": "tentative",
+    "pos": "adj",
+    "meaning": "잠정적인"
+  },
+  {
+    "id": 286,
+    "word": "imperative",
+    "pos": "adj",
+    "meaning": "필수적인"
+  },
+  {
+    "id": 287,
+    "word": "cater",
+    "pos": "v",
+    "meaning": "음식을 공급하다"
+  },
+  {
+    "id": 288,
+    "word": "expedite",
+    "pos": "v",
+    "meaning": "신속히 처리하다"
+  },
+  {
+    "id": 289,
+    "word": "reschedule",
+    "pos": "v",
+    "meaning": "일정을 변경하다"
+  },
+  {
+    "id": 290,
+    "word": "souvenir",
+    "pos": "n",
+    "meaning": "기념품"
+  },
+  {
+    "id": 291,
+    "word": "fare",
+    "pos": "n",
+    "meaning": "교통 요금"
+  },
+  {
+    "id": 292,
+    "word": "luggage",
+    "pos": "n",
+    "meaning": "수하물"
+  },
+  {
+    "id": 293,
+    "word": "boarding",
+    "pos": "n",
+    "meaning": "탑승"
+  },
+  {
+    "id": 294,
+    "word": "depart",
+    "pos": "v",
+    "meaning": "출발하다"
+  },
+  {
+    "id": 295,
+    "word": "accessible",
+    "pos": "adj",
+    "meaning": "접근 가능한"
+  },
+  {
+    "id": 296,
+    "word": "occupancy",
+    "pos": "n",
+    "meaning": "점유율, 입주"
+  },
+  {
+    "id": 297,
+    "word": "renewal",
+    "pos": "n",
+    "meaning": "(계약) 갱신"
+  },
+  {
+    "id": 298,
+    "word": "surplus",
+    "pos": "n",
+    "meaning": "흑자, 잉여"
+  },
+  {
+    "id": 299,
+    "word": "deficit",
+    "pos": "n",
+    "meaning": "적자"
+  },
+  {
+    "id": 300,
+    "word": "outlet",
+    "pos": "n",
+    "meaning": "할인 매장, 콘센트"
+  }
+]
