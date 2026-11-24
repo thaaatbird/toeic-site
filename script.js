@@ -4,6 +4,7 @@ const DAY = 24 * HOUR;
 const INTERVALS = [3, 7, 14, 30]; // 맞혔을 때 복습 간격(일)
 const WRONG_DELAY = 12 * HOUR;    // 틀렸을 때 12시간 뒤
 const MISSED_DAY_RATE = 0.5;      // 접속 안 한 날은 0.5일로 계산
+const DAILY_NEW_LIMIT = 30;       // 하루 새 단어 개수 제한
 
 // ===== 저장 / 불러오기 =====
 function loadData(key, fallback) {
@@ -27,6 +28,21 @@ let words = [];
 let progress = loadData("toeic-progress", {}); // { 단어id: { level, due } }
 let clock = loadData("toeic-clock", null);     // { studyTime, lastVisit }
 let current = null;
+let daily = loadData("toeic-daily", { date: "", newCount: 0 });
+
+// ===== 하루 새 단어 개수 =====
+function todayKey() {
+  const d = new Date();
+  return `${d.getFullYear()}-${d.getMonth() + 1}-${d.getDate()}`;
+}
+
+function getDaily() {
+  if (daily.date !== todayKey()) {
+    daily = { date: todayKey(), newCount: 0 }; // 날짜가 바뀌면 0부터
+    saveData("toeic-daily", daily);
+  }
+  return daily;
+}
 
 // ===== 학습 시계 (접속 안 한 날은 반나절만 흐름) =====
 function startOfDay(ms) {
@@ -76,7 +92,7 @@ function pickNext() {
   const due = getDueWords();
   if (due.length) return due[0]; // 복습할 단어 먼저
   const fresh = getNewWords();
-  if (fresh.length) return fresh[Math.floor(Math.random() * fresh.length)];
+  if (fresh.length && getDaily().newCount < DAILY_NEW_LIMIT) return fresh[Math.floor(Math.random() * fresh.length)];
   return null;
 }
 
@@ -90,6 +106,11 @@ function makeChoices(answer) {
 // ===== 채점 =====
 function grade(word, isCorrect) {
   advanceClock();
+    const isNew = !progress[word.id];
+  if (isNew) {
+    getDaily().newCount++;
+    saveData("toeic-daily", daily);
+  }
   const p = progress[word.id] || { level: 0 };
   let delay;
   if (isCorrect) {
@@ -119,8 +140,8 @@ const nextBtn = document.getElementById("next-btn");
 
 function renderStats() {
   const learned = Object.keys(progress).length;
-  statsEl.textContent =
-    `복습할 단어 ${getDueWords().length}개 · 새 단어 ${getNewWords().length}개 · 학습한 단어 ${learned}개`;
+    statsEl.textContent =
+    `오늘 새 단어 ${getDaily().newCount}/${DAILY_NEW_LIMIT} · 복습할 단어 ${getDueWords().length}개 · 학습한 단어 ${learned}개`;
 }
 
 function showQuestion() {
