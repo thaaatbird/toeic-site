@@ -5,6 +5,8 @@ const INTERVALS = [3, 7, 14, 30]; // 맞혔을 때 복습 간격(일)
 const WRONG_DELAY = 12 * HOUR;    // 틀렸을 때 12시간 뒤
 const MISSED_DAY_RATE = 0.5;      // 접속 안 한 날은 0.5일로 계산
 const DAILY_NEW_LIMIT = 30;       // 하루 새 단어 개수 제한
+const SIMILAR_NEW = 2;            // 새 단어: 철자 비슷한 오답 개수 (0~3)
+const SIMILAR_REVIEW = 3;         // 복습 단어: 철자 비슷한 오답 개수 (0~3)
 
 // ===== 저장 / 불러오기 =====
 function loadData(key, fallback) {
@@ -96,17 +98,55 @@ function pickNext() {
   return null;
 }
 
+// ===== 선지 난이도: 철자가 비슷한 단어를 오답으로 =====
+function editDistance(a, b) {
+  const dp = Array.from({ length: a.length + 1 }, (_, i) => [i]);
+  for (let j = 1; j <= b.length; j++) dp[0][j] = j;
+  for (let i = 1; i <= a.length; i++) {
+    for (let j = 1; j <= b.length; j++) {
+      const cost = a[i - 1] === b[j - 1] ? 0 : 1;
+      dp[i][j] = Math.min(dp[i - 1][j] + 1, dp[i][j - 1] + 1, dp[i - 1][j - 1] + cost);
+    }
+  }
+  return dp[a.length][b.length];
+}
+
+function commonPrefix(a, b) {
+  let i = 0;
+  while (i < a.length && i < b.length && a[i] === b[i]) i++;
+  return i;
+}
+
+// 점수가 낮을수록 철자가 비슷함
+function similarity(a, b) {
+  return editDistance(a, b) - 0.5 * Math.min(commonPrefix(a, b), 4);
+}
+
 function makeChoices(answer) {
   let pool = words.filter((w) => w.id !== answer.id && w.pos === answer.pos);
-  if (pool.length < 3) pool = words.filter((w) => w.id !== answer.id);
-  const wrong = shuffle(pool).slice(0, 3);
-  return shuffle([answer, ...wrong]);
+  if (pool.length < 6) pool = words.filter((w) => w.id !== answer.id);
+
+  // 처음 보는 단어: 비슷한 철자 2개 + 무작위 1개 / 복습 단어: 비슷한 철자 3개
+  const level = progress[answer.id] ? progress[answer.id].level : 0;
+  const similarCount = level === 0 ? SIMILAR_NEW : SIMILAR_REVIEW;
+
+  const ranked = pool
+    .map((w) => ({ w, score: similarity(answer.word, w.word) }))
+    .sort((a, b) => a.score - b.score)
+    .map((x) => x.w);
+
+  // 가장 비슷한 1개는 항상 넣고, 나머지는 상위 6개 중에서 무작위로
+  const similar = similarCount > 0
+    ? [ranked[0], ...shuffle(ranked.slice(1, 6)).slice(0, similarCount - 1)]
+    : [];
+  const others = shuffle(pool.filter((w) => !similar.includes(w))).slice(0, 3 - similarCount);
+  return shuffle([answer, ...similar, ...others]);
 }
 
 // ===== 채점 =====
 function grade(word, isCorrect) {
   advanceClock();
-    const isNew = !progress[word.id];
+  const isNew = !progress[word.id];
   if (isNew) {
     getDaily().newCount++;
     saveData("toeic-daily", daily);
@@ -140,7 +180,7 @@ const nextBtn = document.getElementById("next-btn");
 
 function renderStats() {
   const learned = Object.keys(progress).length;
-    statsEl.textContent =
+  statsEl.textContent =
     `오늘 새 단어 ${getDaily().newCount}/${DAILY_NEW_LIMIT} · 복습할 단어 ${getDueWords().length}개 · 학습한 단어 ${learned}개`;
 }
 
